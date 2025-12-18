@@ -45,10 +45,15 @@ default-lease-time 600;
 max-lease-time 7200;
 
 # Subnet declaration
+
 subnet 10.0.20.0 netmask 255.255.255.0 {
+
   range 10.0.20.10 10.0.20.230;
+  
   option routers 10.0.20.1;
+  
   option broadcast-address 10.0.20.255;
+  
 }
 
 ![Conf Code](configureiscdhcpserver2.jpg)
