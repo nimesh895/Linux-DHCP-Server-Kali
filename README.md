@@ -67,6 +67,7 @@ sudo systemctl start isc-dhcp-server
 
 # Verification
 sudo systemctl status isc-dhcp-server
+
 → Service active and listening on eth0
 
 ![Check Status](checkstatusdhcpserver.png)
